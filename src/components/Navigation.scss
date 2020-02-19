@@ -1,0 +1,29 @@
+@import "./../scss/bundle";
+
+nav.main-nav {
+    padding: 20px 0;
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+
+    a {
+        display: block;
+        padding: 10px 20px;
+
+        font-family: $font-montserrat;
+        font-weight: 600;
+        font-size: 1em;
+
+        border: 2px solid #000;
+        border-radius: 5px;
+
+        text-decoration: none;
+        color: #000;
+
+        margin: 0 10px;
+    }
+}

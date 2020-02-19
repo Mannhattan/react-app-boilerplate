@@ -1,0 +1,30 @@
+@import "./../scss/bundle";
+
+div.container {
+    width: 100%;
+    height: 100vh;
+
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+
+    img {
+        width: 150px;
+        height: auto;
+    }
+
+    h1 {
+        font-family: $font-montserrat;
+        font-weight: 600;
+        font-size: 2em;
+    }
+
+    p {
+        font-family: $font-montserrat;
+        font-weight: 400;
+        font-size: 1em;
+    }
+}
